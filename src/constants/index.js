@@ -1,33 +1,37 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Link-uP",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "A real-time chat application built with the MERN stack and Socket.io, featuring instant messaging, media sharing, and secure user authentication."
+    ,
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
-    ],
+      "Real-time messaging powered by Socket.io for instant delivery and live updates.",
+      "JWT-secured authentication with protected routes and user session handling.",
+      "Cloudinary integration for seamless image uploads and media sharing.",
+      "Responsive and clean UI built with React, Tailwind CSS, and Zustand.",
+      "RESTful APIs for users and messages using Node.js and Express.",
+    ]
+
+    ,
     href: "",
     logo: "",
     image: "/assets/projects/accessories.jpg",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "React.Js",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "Node.js",
+        path: "/assets/logos/node.png",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "Socket IO",
+        path: `/assets/logos/socketio.svg`,
       },
       {
         id: 4,
