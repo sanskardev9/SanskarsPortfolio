@@ -8,6 +8,7 @@ const ProjectDetails = ({
   href,
   closeModal,
 }) => {
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm">
       <motion.div
@@ -17,7 +18,7 @@ const ProjectDetails = ({
       >
         <button
           onClick={closeModal}
-          className="absolute p-2 rounded-sm top-5 right-5 bg-midnight hover:bg-gray-500"
+          className="absolute p-2 rounded-sm top-5 right-5 bg-midnight cursor-pointer transition-all duration-200 hover:bg-gray-700"
         >
           <img src="assets/close.svg" className="w-6 h-6" />
         </button>
@@ -39,7 +40,7 @@ const ProjectDetails = ({
                 />
               ))}
             </div>
-            <a className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation">
+            <a className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation " href={href} target="_blank">
               View Project{" "}
               <img src="assets/arrow-up.svg" className="size-4" href={href} />
             </a>

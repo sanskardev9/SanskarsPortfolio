@@ -14,9 +14,9 @@ export const myProjects = [
     ]
 
     ,
-    href: "",
+    href: "https://link-up-852r.onrender.com",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/acc.webp",
     tags: [
       {
         id: 1,
